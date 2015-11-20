@@ -7,6 +7,7 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.box = "timoschmidt/TxSolr"
+  config.vm.box_version = "0.7.1"
   config.vm.network :private_network, ip: "192.168.144.120"
 
   host = RbConfig::CONFIG['host_os']
