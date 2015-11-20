@@ -26,6 +26,9 @@ vagrant up
 Username: admin
 Password: supersecret
 
+Afterwards in the backend requeue all pages and re index and then check the frontend.
+
+
 4. Check solr:
 
 Create an ssh tunnel to your box:
